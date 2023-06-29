@@ -95,7 +95,6 @@
   }
 
 
-
   /** data to ts-template */
   const templateFactory = (propsData, name = 'Data') => {
       if (propsData?.length) {
@@ -130,6 +129,4 @@
       requestTSTemplate = templateFactory(data.requestProperties, 'Request');
       responseTSTemplate = templateFactory(data.responseProperties, 'Respones');
   })
-
-
 })();
